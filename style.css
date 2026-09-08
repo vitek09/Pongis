@@ -1,0 +1,43 @@
+body {
+  margin: 0;
+  overflow: hidden;
+}
+
+#drawingScreen {
+  width: 100vw;
+  height: 100vh;
+  display: block;
+}
+
+#scoreContainer {
+  position: absolute;
+  top: 20px;
+  left: 50%;
+  transform: translateX(-50%);
+  
+  z-index: 10;
+  pointer-events: none;
+  
+  display: flex;
+}
+
+#startInfo {
+  position: absolute;
+  z-index: 999;
+
+  top: 50%;
+  left: 50%;
+  transform: translateX(-50%) translateY(-50%);
+
+  font-size: 40px;
+  font-weight: 700;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  color: white;
+}
+
+.score {
+  color: white;
+  font-family: sans-serif;
+  font-size: 2rem;
+  margin: 0 5px;
+}
