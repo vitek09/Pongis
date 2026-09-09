@@ -19,7 +19,7 @@ jobs:
         with:
           python-version: "3.14"
 
-      - name: Run Python script
+      - name: Run amalgamation script
         run: |
           python amalgamate.py
 

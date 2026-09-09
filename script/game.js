@@ -68,7 +68,7 @@ class PongPlayer {
         this.#score = 0;
         this.#scoreDisplay = scoreDisplay;
 
-        scoreDisplay.textContent = `${this.#score}`;
+        this.#scoreDisplay.textContent = `${this.#score}`;
     }
 
     /**
